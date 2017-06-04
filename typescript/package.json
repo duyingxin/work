@@ -1,0 +1,18 @@
+{
+  "name": "dyx_learn",
+  "version": "1.0.0",
+  "description": "to learn ts",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

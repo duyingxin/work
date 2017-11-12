@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="vue.js"></script>
+    <title>dyx-vue</title>
+  </head>
+  <body>
+    <div id="app">
+        {{test}}
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            created: function () {
+                // `this` 指向 vm 实例
+                console.log('a is: ' + this.test)
+            },
+            data: {
+                test : 'this is vue demo'
+            }
+        })
+    </script>
+  </body>
+</html>
